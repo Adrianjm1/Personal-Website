@@ -85,7 +85,7 @@
      display: flex;
     
      /* Chrome 10-25, Safari 5.1-6 */
-     background: linear-gradient(to right, hsla(259, 100%, 16%, 0.459), hsla(204, 89%, 39%, 0.37)), url("../images/banner.jpg");
+     background: linear-gradient(to right, hsla(259, 100%, 16%, 0.459), hsla(204, 89%, 39%, 0.37)), url("../images/istockphoto-483731108-170667a.jpg");
      background-size: cover;
      background-attachment: fixed;
      height: 100vh;
@@ -420,6 +420,18 @@ section .title::after{
 
 }
 
+.row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 50%;
+  }
+
+  .colum2 {
+      margin-top: 30px;
+  }
+
 
 
 .html{
@@ -723,6 +735,11 @@ footer span a:hover{
 
 @media (max-width: 680px){
 
+
+        .column {
+          width: 100%;
+        }
+    
     .max-width {
         padding: 0 25px;
     }
