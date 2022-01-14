@@ -440,7 +440,7 @@ section .title::after{
 }
 
 .css{
-    width: 70%;
+    width: 65%;
     background: #038FCB;
 }
 
@@ -457,6 +457,11 @@ section .title::after{
 .node{
     width: 70%;
     background: #71A563;
+}
+
+.next{
+    width: 45%;
+    background: #3445da;
 }
 
 .react{
