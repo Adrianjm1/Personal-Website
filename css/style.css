@@ -345,27 +345,27 @@ section .title::after{
 
 
 .html{
-    width: 90%;
+    width: 85%;
     background: #DD4B25;
 }
 
 .css{
-    width: 65%;
+    width: 56%;
     background: #038FCB;
 }
 
 
 .js{
-    width: 75%;
+    width: 59%;
     background: #EFD81D;
 }
 .mysql{
-    width: 80%;
+    width: 75%;
     background: #DE8A00;
 }
 
 .node{
-    width: 70%;
+    width: 60%;
     background: #71A563;
 }
 
@@ -391,7 +391,7 @@ section .title::after{
 }
 .wordpress {
 
-    width: 70%;
+    width: 60%;
     background: #02719C;
 }
 
