@@ -229,6 +229,7 @@ section .title::after{
     display: grid;
     grid-template-columns:repeat(3, 1fr) ;
     grid-gap: 30px;
+    z-index: 0;
 
 }
 
@@ -248,12 +249,17 @@ section .title::after{
 }
 
 .item-img{
-    max-width: 100%;
+    width: 100%;
     display: block;
 }
 
 .item-btn{
-    text-align: center;
+    
+    text-align: center; 
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+    width: 100%;
     border: 0.5px solid black;
     background: #0A4792;
     font-weight: 500;
@@ -264,102 +270,6 @@ section .title::after{
     color: cornsilk;
 
 }
-
-/*SKILLS*/
-/*
-.skills {
-    background: rgb(184, 199, 199);
-}
-
-.skills .title {
-    position: relative;
-    text-align: center;
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 30px;
-    font-weight: 500;
-    margin-bottom: 60px;
-    padding-bottom: 20px;
-    
-}
-
-.skills .title::before{
-    content: "";
-    position: absolute;
-    width: 170px;
-    height: 3px;
-    bottom: 10px;
-    left: 50%;
-    background: #111;
-    transform: translate(-50%);
-
-}
-
-.skills .skills-content {
-    display: inline-block;
-}
-
-.skills .skills-content .left .text{
-    font-size: 25px;
-    font-weight: 600;
-    margin-bottom: 10px;
-
-}
-
-
-.skills .skills-content .right .bars{
-    margin-bottom: 15px;
-
-}
-
-.skills .skills-content .right .info{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.skills .skills-content .right span{
-    font-weight: 700;
-    font-size: 19px;
-}
- 
-
-.skills .skills-content .right .line{
-    height: 5px;
-    width: 100%;
-    background: lightgray;
-    position: relative;
-}
- 
-
-.skills .skills-content .right .line::before{
-    content: "";
-    position: absolute;
-    height: 100%;
-    width: 70%;
-    left: 0;
-    top: 0;
-    background: #000cb4;
-
-}
-
-.skills .skills-content .right .html::before{
-    width: 90%;
-}
-.skills .skills-content .right .css::before{
-    width: 70%;
-}
-.skills .skills-content .right .js::before{
-    width: 75%;
-}
-
-.skills .skills-content .right .node::before{
-    width: 70%;
-}
-.skills .skills-content .right .css::before{
-    width: 70%;
-}
-*/
-/* skills alt*/
 
 
 
@@ -675,8 +585,19 @@ footer span a:hover{
     text-decoration: underline;
 }
 
-@media (max-width: 690px){
+@media (max-width: 900px){
 
+    .projects{
+
+        grid-template-columns:repeat(2, 1fr) ;
+        grid-gap: 30px;
+    
+    }
+    
+
+}
+
+@media (max-width: 690px){
 
 
 
@@ -739,6 +660,14 @@ footer span a:hover{
 
 
 @media (max-width: 680px){
+
+    .projects{
+
+        grid-template-columns:repeat(1, 1fr) ;
+        grid-gap: 30px;
+    
+    }
+    
 
 
         .column {
