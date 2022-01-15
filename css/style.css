@@ -247,6 +247,7 @@ section .title::after{
 
 .item-text {
     padding: 1em;
+    margin: 10px;
     
 }
 
@@ -256,6 +257,8 @@ section .title::after{
 }
 
 .item-btn{
+    padding: 7px;
+
     position: absolute;
     bottom: 0;
     text-align: center; 
