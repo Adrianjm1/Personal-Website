@@ -258,7 +258,7 @@ section .title::after{
 
 .item-btn{
     padding: 7px;
-
+    color: cornsilk;
     position: absolute;
     bottom: 0;
     text-align: center; 
@@ -300,6 +300,7 @@ section .title::after{
 
 .skills-alt {
     margin-top: 10%;
+    margin-bottom: 10%;
     font-family: 'Ubuntu', sans-serif;
 
 }
@@ -322,6 +323,7 @@ section .title::after{
 }
 
 .skills2{
+ 
     text-align: left;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -335,6 +337,7 @@ section .title::after{
 
 .row {
     display: flex;
+    /* margin-bottom: 90px; */
   }
   
   .column {
@@ -555,7 +558,7 @@ section .title::after{
 }
 
 .redes ul li .github:hover{
-    background-color: rgb(0, 233, 70);
+    background-color: rgb(74, 88, 79);
 }
 
 .redes ul li .linkedin:hover{
