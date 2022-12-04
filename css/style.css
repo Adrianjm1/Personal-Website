@@ -17,6 +17,7 @@
      padding: 30px 0;
      font-family: 'Ubuntu', sans-serif;
      transition: all 0.3s ease;
+     z-index: 2;
  }
  .navbar-main.sticky {
      padding: 20px 0;
@@ -68,6 +69,50 @@
      color: #fff;
  }
 
+ /* ANIMATION  */
+
+ 
+.animation {
+    height:50px;
+    overflow:hidden;
+    margin-left: 1rem;
+  }
+  
+  .animation > div > div {
+    padding: 0.25rem 0.75rem;
+    height:2.81rem;
+    margin-bottom: 2.81rem;
+    display:inline-block;
+  }
+  
+  .animation div:first-child {
+    animation: text-animation 8s infinite;
+  }
+  
+  .first div {
+    background-color:#20a7d8;
+  }
+  .second div {
+    background-color:#CD921E;
+  }
+  .third div {
+    background-color:#c10528;
+  }
+  
+  @keyframes text-animation {
+    0% {margin-top: 0;}
+    10% {margin-top: 0;}
+    20% {margin-top: -5.62rem;}
+    30% {margin-top: -5.62rem;}
+    40% {margin-top: -11.24rem;}
+    60% {margin-top: -11.24rem;}
+    70% {margin-top: -5.62rem;}
+    80% {margin-top: -5.62rem;}
+    90% {margin-top: 0;}
+    100% {margin-top: 0;}
+  }
+  
+
  /* menu btn styling*/
 
  .menu-btn {
@@ -96,7 +141,9 @@
 
  .home .max-width{
      margin: auto 0 auto 40px;
+
  }
+
 
  .home .home-content .text-1{
      font-size: 27px;
