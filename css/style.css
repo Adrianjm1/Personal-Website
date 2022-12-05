@@ -144,8 +144,8 @@
 
  .home {
      display: flex;
-     -webkit-transform: translate3d(0,0,1px);
-     -webkit-backface-visibility: hidden;
+     --webkit-transform: translate3d(0,0,1px);
+     --webkit-backface-visibility: hidden;
      /* Chrome 10-25, Safari 5.1-6 */
      background: linear-gradient(to right, hsla(259, 100%, 16%, 0.459), hsla(204, 89%, 39%, 0.37)), url("../images/istockphoto-483731108-170667a.jpg");
      background-size: cover ;
@@ -583,9 +583,6 @@ section .title::after{
     color: black;
     border-radius: 3px;
     background: rgb(227, 223, 250);
-
-
-
 }
 
 .row {
@@ -600,60 +597,6 @@ section .title::after{
   .colum2 {
       margin-top: 30px;
   }
-
-
-
-.html{
-    width: 85%;
-    background: #DD4B25;
-}
-
-.css{
-    width: 56%;
-    background: #038FCB;
-}
-
-
-.js{
-    width: 59%;
-    background: #EFD81D;
-}
-.mysql{
-    width: 75%;
-    background: #DE8A00;
-}
-
-.node{
-    width: 60%;
-    background: #71A563;
-}
-
-.next{
-    width: 45%;
-    background: #3445da;
-}
-
-.react{
-    width: 50%;
-    background: #5ED3F3;
-}
-
-.php {
-    width: 50%;
-    background: #7377AD;
-}
-
-.figma {
-    width: 50%;
-    background: #9D56F7;
-
-}
-.wordpress {
-
-    width: 60%;
-    background: #02719C;
-}
-
 
 .contact{
     width: 80%;
