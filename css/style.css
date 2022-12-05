@@ -556,12 +556,12 @@ section .title::after{
     transform: translate(-50%);
 }
 
-.skills-alt {
+/* .skills-alt {
     margin-top: 10%;
     margin-bottom: 10%;
     font-family: 'Ubuntu', sans-serif;
 
-}
+} */
 
 
 .skills-alt h3 {
@@ -590,9 +590,6 @@ section .title::after{
     background: rgb(227, 223, 250);
 
 }
-
-
-
   
   .column {
     flex: 50%;
