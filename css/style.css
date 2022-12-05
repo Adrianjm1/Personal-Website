@@ -148,7 +148,8 @@
      -webkit-backface-visibility: hidden;
      /* Chrome 10-25, Safari 5.1-6 */
      background: linear-gradient(to right, hsla(259, 100%, 16%, 0.459), hsla(204, 89%, 39%, 0.37)), url("../images/istockphoto-483731108-170667a.jpg");
-     background-size:cover ;
+     background-size: cover ;
+     background-repeat: no-repeat;
      background-attachment: fixed;
      height: 100vh;
      color: #75bdf8;
