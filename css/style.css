@@ -152,7 +152,7 @@
      --webkit-transform: translate3d(0,0,1px);
      --webkit-backface-visibility: hidden;
      /* Chrome 10-25, Safari 5.1-6 */
-     background: url("../images/istockphoto-483731108-170667a.jpg");
+     background: linear-gradient(to right, hsla(259, 100%, 16%, 0.459), hsla(204, 89%, 39%, 0.37));
      background-size: 100vw 100vh ;
      background-repeat: no-repeat;
      background-attachment: fixed;
